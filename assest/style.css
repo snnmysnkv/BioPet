@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #F4F5F7;
+}
+.section_header{
+    display: flex;
+    align-items: center;
+    background-color: #F4F5F7;
+    padding: 30px 0;
+    justify-content: space-around;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.section_header .icon img{
+    height: 70px;
+    width: 239px;
+}
+.search{
+position: relative;
+}
+.search input{
+position: relative;
+background-color: #968D8D29;
+color: #302f2f;
+border-radius: 6px;
+border: 0 solid;
+width: 199px;
+height: 36px;
+}
+.search img{
+position: absolute;
+height: 14.89px;
+width: 14.89px;
+right: 10px;
+top: 10px;
+}
+
+input{
+    outline: none;
+}
+.delivery{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.delivery button{
+    width: 119px;
+    height: 36px;
+    border-radius: 4px;
+    border: 0 solid;
+    line-height: 16.41px;
+    background-color: #486AA6;
+    color: #FFFFFF;
+}
+.delivery svg{
+    position: absolute;
+    fill: #ffffff;
+    width: 28.27px;
+    height: 16px;
+    right: 0px;
+}
+.person_svg{
+    width: 17.05px;
+    height: 17.05px;
+}
+.phone_svg{
+    width: 17.05px;
+    height: 17.05px;
+}
+.heart_svg{
+    width: 17.05px;
+    height: 17.05px;
+}
+.magazine_svg{
+    position: relative;
+    width: 17.05px;
+    height: 17.05px;
+}
+.magazine_stock{
+    position: absolute;
+    top: -15px;
+    right: -8px;
+    position: absolute;
+    background: yellow;
+    border-radius: 50%;
+}
+.navbar_selection{
+    height: 10vh;
+    background-color: #486AA6;  
+}
+.navbar_cursor{
+    display: flex;
+    align-items: center;
+    max-width: 1170px;
+    padding-top: 20px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar_cursor a li{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 21px;
+    color: #F4F5F7;
+}
+.navbar_cursor span{
+    fill: #F4F5F7;
+    width: 18px;
+    height: 18px;
+}
+.home_page{
+    background-image: url(./img/it.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.home_page_text{
+    margin-top: 198px;
+    max-width: 642px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin-left: 90px;
+    letter-spacing: 1px;
+}
+.home_page button{
+    margin-top: 33px;
+    margin-left: 162px;
+    padding: 12px 31px;
+    background-color: #c1d72d;
+    border-radius: 10px;
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24.61px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.section_two_header{
+    text-align: center;
+    margin-top: 200px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000;
+}
+.animal_about{
+    display: flex;
+    align-items: center;
+    max-width: 1330px;
+    margin: 143px auto;
+    justify-content: center;
+}
+.animal_about svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 70px;
+    fill: #302f2f;
+}
+.animals{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    max-width: 1170px;
+}
+.animals .animal_cat p{
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+margin-top: 26px;
+}
+.animals .animal_dog p{
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+margin-top: 26px;
+}
+.animals .animal_rabbit p{
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+margin-top: 26px;
+}
+.animals .animal_cat img :hover{
+   transform: translateX(-800px);
+}
+.section_header3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-bottom: 55px;
+}
+.animal_list{
+max-width: 1170px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.animal_card{
+    position: relative;
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.18);
+    border-radius: 6px;
+    min-width: 277px;
+    width: 278px;
+    height: 278px;
+
+}
+.card_fav{
+background-color: none;   
+position: absolute;
+width: 25px;
+height: 20px;
+right: 5px;
+top: 5px;
+}
+.section_header4{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+.section_button_4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 30px;
+}
+.all_button{
+    padding: 15px 25px;
+    border: 0.1 solid;
+    border-radius: 9px;
+    background-color: #486AA6E3;
+    color: #F4F5F7;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+.fav_button{
+    padding: 15px 25px;
+    border: 0.1 solid;
+    border-radius: 9px;
+    background-color:#F4F5F7;
+    color:#486AA6E3 ;
+    font-size: 16px;
+    line-height: 19px; 
+    cursor: pointer;
+}
+.new_button{
+    padding: 15px 25px;
+    border: 0.1 solid;
+    border-radius: 9px;
+    background-color:#F4F5F7;
+    color:#486AA6E3 ;
+    font-size: 16px;
+    line-height: 19px; 
+    cursor: pointer;
+}
+.choose_button{
+    padding: 15px 25px;
+    border: 0.1 solid;
+    border-radius: 9px;
+    background-color:#F4F5F7;
+    color:#486AA6E3 ;
+    font-size: 16px;
+    line-height: 19px; 
+    cursor: pointer;
+}
+.all_button:hover{
+    color: #486AA6;
+    background-color: #F4F5F7;
+}
+.fav_button:hover{
+    color: #F4F5F7;
+    background-color: #486AA6;
+}
+.new_button:hover{
+    color: #F4F5F7;
+    background-color: #486AA6;
+}
+.choose_button:hover{
+    color: #F4F5F7;
+    background-color: #486AA6;
+}
+.product_sell{
+    display: grid;
+    align-items: center;
+    margin-top: 48px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+    gap: 15px;
+}
+.product_one{
+    border-radius: 8px;
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.18);
+    width: 252px;
+    height: 433px;
+    background: #FCFCFC;
+}
+.product_about{
+    text-align: center;
+    
+}
+.button_sell{
+    margin-top: 20px;
+    max-width: 250px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.button_sell button{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EDECEC;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.button_sell button svg{
+    width: 20px;
+    height: 18px;
+}
+.product_one img:hover{
+    transform: scale(1.1);
+}
+.section_header5{
+    text-align: center;
+margin-top: 96px;
+font-size: 32px;
+line-height: 36px;
+font-weight: 500;
+}
+.section5{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    height: 333px;
+    background: url(./img/cute-animal-colorful-nature-animal-decoration-cartoon-animals-powerpoint-background_0e8dfc2564__960_540.avif);
+}
+.section5_cards{
+    display: flex;
+    gap: 20px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.cards5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease 1s;
+    height: 261px;
+    min-width: 278px;
+    background-color: black;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.18);
+    border-radius: 10px;
+} 
+.last_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 110px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+.last_section_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 50px;
+}
+.footer_ul{
+    font-size: 18px;
+}
+.footer_input{
+    display: flex;
+    align-items: center;
+}
+.footer_input input{
+border-radius: 8px;
+outline: none;
+border: none;
+padding: 10px;
+background-color: #EDECEC;
+}
+.footer_input button{
+    width: 55px;
+    height:37px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.footer_input button svg{
+    width: 21.98px;
+    height: 20px;
+}
+.footer_svg{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer_svg svg{
+    width: 24.98px;
+    height: 25px;
+    cursor: pointer;
+}
